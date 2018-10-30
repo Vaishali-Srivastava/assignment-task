@@ -10,9 +10,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/custom-icons.css" rel="stylesheet">
-    <link href="css/landling-style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,134 +29,270 @@
     <meta name="msapplication-config" content="./favicon-lp/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
   </head>
-  <body class="landing-main">
-    <header class="lp-topbar">
-        <div class="row">
-            <div class="col-md-3 col-sm-3 col-xs-3">
-                <a href="index.html">
-                  <img src="images/lp-sm-logo.png" class="img-responsive lp-img-logo" alt="Asergis Property">
-                </a>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Brand</a>
             </div>
-            <div class="col-md-5 col-sm-9 col-xs-9 col-md-offset-4">
-                <div class="lp-topSup">
-                  <span>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <a href="mailto:info@asergisproperty.com" data-original-title="" title="">
-                      info@asergisproperty.com
-                    </a>
-                    
-                  </span>
-                  <span>
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    <a href="tel:+44 (0)203 411 4114" data-original-title="" title="">+356 2776 1451</a>
-                  </span>
-                  <span class="divider">|</span>
-                  <span class="text-normal">
-                    <a href="javascript:void(0)">Rent/Sell your property
-                    </a>
-                  </span>
-                  
-                  <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <div class="circle-wrap">
-                      <img src="images/user-profile.png" class="img-inline" title="" alt=""/> 
-                    </div>
-                  </a>
-                  <ul class="dropdown-menu drop_inherit">
-                    <li><a href="user-profile.html">Manage My Properties</a>
-                    </li>
-                    <li><a href="user-profile.html">My Profile</a></li>
-                    <li><a href="login.html">Sign Out</a></li>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
                   </ul>
-                </div>
-            </div>
-        </div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
     </header>
-    <main id="site-content" tabindex="-1" class="main-panel">
-      <section class="landing-theme">
-        <div class="lp-mainbar">
-          <div class="lp-main-rect-wrap">
-            <div class="quad-panels">
-                <div class="quad-angles" data-angle="tl-first-angle" onclick="window.location.href='property-search.html'">
-                  <h3>Find a Short Let</h3>
-                  <div class="mouseover-visible-wrap">
-                    <h3>Find a Short Let</h3>
-                  </div>
-                </div>
-                <div class="quad-angles" data-angle="tr-first-angle" onclick="window.location.href='property-search.html'">
-                  <h3>Find a Long Let</h3>
-                  <div class="mouseover-visible-wrap">
-                    <h3>Find a Long Let</h3>
-                  </div>
-                </div>
-                <div class="quad-angles" data-angle="tl-second-angle" onclick="window.location.href='property-search.html'">
-                  <h3>Find your Host</h3>
-                  <div class="mouseover-visible-wrap">
-                    <h3>Find your Host</h3>
-                  </div>
-                </div>
-                <div class="quad-angles" data-angle="tr-second-angle" onclick="window.location.href='property-search.html'">
-                  <h3>Buy Property</h3>
-                  <div class="mouseover-visible-wrap">
-                    <h3>Buy Property</h3>
-                  </div>
-                </div>
-                <div class="quad-angles" data-angle="tl-third-angle" onclick="window.location.href='become-host.html'">
-                  <h3>Become a Host</h3>
-                  <div class="mouseover-visible-wrap">
-                    <h3>Become a Host</h3>
-                  </div>
-                </div>
-                <div class="quad-angles" data-angle="tr-third-angle" onclick="window.location.href='sell-property.html'">
-                  <h3>Sell your Property</h3>
-                  <div class="mouseover-visible-wrap">
-                    <h3>Sell your Property</h3>
-                  </div>
-                </div>
-                <div class="quad-angles" data-angle="tl-fourth-angle" onclick="window.location.href='list-short-let.html'">
-                  <h3>List Short Let</h3>
-                  <div class="mouseover-visible-wrap">
-                    <h3>List Short Let</h3>
-                  </div>
-                </div>
-                <div class="quad-angles" data-angle="tr-fourth-angle" onclick="window.location.href='list-long-let.html'">
-                  <h3>List Long Let</h3>
-                  <div class="mouseover-visible-wrap">
-                    <h3>List Long Let</h3>
-                  </div>
-                </div>
+    <section class="content-wrapper">
+      <div class="left-panel">
+          <ul class="top-switch">
+            <li data-bind="enable-pages"> 
+              <i class="fa fa-file-text"></i>
+              <span>Pages</span>
+            </li>
+            <li>
+              <i class="fa fa-file-text"></i>
+              <span>Create</span>
+            </li>
+            <li data-edit="content-true">
+              <i class="fa fa-file-text"></i>
+              <span>Content</span>
+            </li>
+            <li>
+              <i class="fa fa-file-text"></i>
+              <span>Files</span>
+            </li>
+            <li>
+              <i class="fa fa-file-text"></i>
+              <span>Categories</span>
+            </li>
+            
+          </ul>
+          <ul class="bottom-switch">
+              <li>
+                <i class="fa fa-file-text"></i>
+                <span>Status</span>
+              </li>
+              <li>
+                <i class="fa fa-file-text"></i>
+                <span>Settings</span>
+              </li>
+              <li>
+                <i class="fa fa-file-text"></i>
+                <span>Mobile View</span>
+              </li>
+          </ul>
+      </div>
+      <div class="main-wrapper">
+        <div class="grid-panel">
+          <div class="grid">
+            <div class="editable-wrap ellipsis">
+              <i class="fa fa-close close-icon" data-close="close-editable"></i>
+              <h4>Lorem Ipsum Heading</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
-            <div class="hex-wrap">
-              <section class="lp-flex-container">
-                <div class="flex">
-                  <figure>
-                    <a href="listing-property.html" class="hexagon">
-                      <span class="hex-logo-wrap">
-                        <img src="images/lp-hex-logo.png" alt="Asergis Property" class="img-responsive img-inline actual-logo">
-                        <img src="images/lp-hex-logo-hover.png" alt="Asergis Property" class="img-responsive img-inline hover-logo">
-                      </span>
-                      <div class="hexagon-helper1">
-                        <span class="hover-background"></span>
-                      </div>
-                      <div class="hexagon-helper2">
-                        <span class="hover-background"></span>
-                      </div>
-                      <div class="hover-background"></div>
-                    </a>
-                  </figure>
-                </div>
-              </section>
+          </div>
+          <div class="grid">
+            <div class="editable-wrap ellipsis">
+              <i class="fa fa-close close-icon" data-close="close-editable"></i>
+              <h4>Lorem Ipsum Heading</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="editable-wrap ellipsis">
+              <i class="fa fa-close close-icon" data-close="close-editable"></i>
+              <h4>Lorem Ipsum Heading</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+          <div class="grid">
+              <div class="editable-wrap ellipsis">
+                <i class="fa fa-close close-icon" data-close="close-editable"></i>
+                <h4>Lorem Ipsum Heading</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+          </div>
+          <div class="grid">
+            <div class="editable-wrap ellipsis">
+              <i class="fa fa-close close-icon" data-close="close-editable"></i>
+              <h4>Lorem Ipsum Heading</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="editable-wrap ellipsis">
+              <i class="fa fa-close close-icon" data-close="close-editable"></i>
+              <h4>Lorem Ipsum Heading</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer class="lp-copyright">
-      <p>All rights reserved Asergis Property Services 2018</p> <a href="disclaimer.html">Disclaimer</a> | <a href="copyright.html">Copyright</a>
-    </footer>
+        <div class="grid-panel">
+          <div class="grid">
+            <div class="editable-wrap ellipsis">
+              <i class="fa fa-close close-icon" data-close="close-editable"></i>
+              <h4>Lorem Ipsum Heading</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+          <div class="grid">
+              <div class="editable-wrap ellipsis">
+                <i class="fa fa-close close-icon" data-close="close-editable"></i>
+                <h4>Lorem Ipsum Heading</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+          </div>
+          <div class="grid">
+              <div class="editable-wrap ellipsis">
+                <i class="fa fa-close close-icon" data-close="close-editable"></i>
+                <h4>Lorem Ipsum Heading</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+            <div class="grid">
+            <div class="editable-wrap ellipsis">
+              <i class="fa fa-close close-icon" data-close="close-editable"></i>
+              <h4>Lorem Ipsum Heading</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+          <div class="grid">
+              <div class="editable-wrap ellipsis">
+                <i class="fa fa-close close-icon" data-close="close-editable"></i>
+                <h4>Lorem Ipsum Heading</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          <div class="grid">
+                <div class="editable-wrap ellipsis">
+                  <i class="fa fa-close close-icon" data-close="close-editable"></i>
+                  <h4>Lorem Ipsum Heading</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+          </div>
+        </div>
+        <div class="grid-panel">
+          <div class="grid">
+                    <div class="editable-wrap ellipsis">
+                      <i class="fa fa-close close-icon" data-close="close-editable"></i>
+                      <h4>Lorem Ipsum Heading</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+          </div>
+          <div class="grid">
+              <div class="editable-wrap ellipsis">
+                <i class="fa fa-close close-icon" data-close="close-editable"></i>
+                <h4>Lorem Ipsum Heading</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+          </div>
+          <div class="grid">
+                <div class="editable-wrap ellipsis">
+                  <i class="fa fa-close close-icon" data-close="close-editable"></i>
+                  <h4>Lorem Ipsum Heading</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+          </div>
+          <div class="grid">
+            <div class="editable-wrap ellipsis">
+              <i class="fa fa-close close-icon" data-close="close-editable"></i>
+              <h4>Lorem Ipsum Heading</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+          <div class="grid">
+              <div class="editable-wrap ellipsis">
+                <i class="fa fa-close close-icon" data-close="close-editable"></i>
+                <h4>Lorem Ipsum Heading</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+          </div>
+          <div class="grid">
+            <div class="editable-wrap ellipsis">
+              <i class="fa fa-close close-icon" data-close="close-editable"></i>
+              <h4>Lorem Ipsum Heading</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+        </div>                
+      </div>
+      <div class="right-panel">
+          <ul class="top-switch">
+            <li>
+              <i class="fa fa-file-text"></i>
+              <span>Status</span>
+            </li>
+            <li>
+              <i class="fa fa-file-text"></i>
+              <span>Publish</span>
+            </li>
+            <li>
+              <i class="fa fa-file-text"></i>
+              <span>Workflow</span>
+            </li>
+            <li>
+              <i class="fa fa-file-text"></i>
+              <span>Cache</span>
+            </li>
+            <li>
+              <i class="fa fa-file-text"></i>
+              <span>FAQs</span>
+            </li>
+            
+          </ul>
+      </div>
+    </section>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/landing-script.js"></script>
+    <script src="js/jquery.dotdotdot.min.js"></script>
+    <script src="js/custom-script.js"></script>
   </body>
 </html>
