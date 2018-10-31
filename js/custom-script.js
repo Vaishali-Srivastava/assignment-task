@@ -1,8 +1,13 @@
 $(document).ready(function(){
 	ellipsisInit();
 	myPageInit();
-	
 	myContentInit();
+});
+
+$(window).on('resize', function(){
+  ellipsisInit();
+  myPageInit();
+  myContentInit();
 });
 
 function ellipsisInit(){
@@ -49,6 +54,7 @@ function myContentInit(){
 
 function editableContentInit(){
 	$(document).on('click', '.main-wrapper .edit-panel', function(){
+
 		$(this).find('.editable-wrap').addClass('edit-visible').attr('contenteditable', true);
 	});
 }

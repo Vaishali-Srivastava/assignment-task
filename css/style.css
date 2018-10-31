@@ -19,7 +19,15 @@ h1,h2,h3,h4,h5,h6,p,ul{
 ul{
   list-style: none;
 }
-
+.float-none{
+  float: none!important;
+}
+a:focus {
+  outline: none;
+}
+.m-none{
+  margin: 0!important;
+}
 /***** Header-Style *****/
 header{
   position: fixed;
@@ -35,7 +43,68 @@ header .navbar {
   border:0;
   border-radius: 0;
 }
-
+header .navbar .container-fluid{
+    min-height: 60px;
+}
+header .navbar .collapse{
+    width: calc(100% - 80px);
+    float: right;
+    height: 100%;
+    padding: 12px 0;
+}
+header .navbar-toggle {
+    margin-top: 12px;
+}
+.inner-list-wrap{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.inner-list-wrap i{
+  margin: 0 10px;
+  font-size: 20px;
+}
+.bootstrap-select .btn-default {
+    color: #fff;
+    background-color: #222;
+    border-color: #191717;
+    box-shadow: 0 8px 6px -6px rgb(14, 14, 14);
+    transition: all 1s ease;
+}
+.bootstrap-select .btn-default.active.focus, 
+.bootstrap-select .btn-default.active:focus, 
+.bootstrap-select .btn-default.active:hover, 
+.bootstrap-select .btn-default:active.focus, 
+.bootstrap-select .btn-default:active:focus, 
+.bootstrap-select .btn-default:active:hover, 
+.bootstrap-select .open>.dropdown-toggle.btn-default.focus, 
+.bootstrap-select .open>.dropdown-toggle.btn-default:focus, 
+.bootstrap-select .open>.dropdown-toggle.btn-default:hover,
+.bootstrap-select .btn-default.active, 
+.bootstrap-select .btn-default:active, 
+.bootstrap-select .open>.dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #222;
+  border-color: #191717;
+  box-shadow: 0 8px 8px -8px rgb(14, 14, 14);
+  outline: none!important;
+}
+header .navbar-default .navbar-brand {
+    float: left;
+    height: 60px;
+    font-size: 18px;
+    line-height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bdbbbb;
+}
+header .navbar-default .navbar-brand i{
+  font-size: 40px;
+}
 /***** Sidebar *****/
 .left-panel{
   position: fixed;

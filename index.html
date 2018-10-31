@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Asergis Property | Home</title>
+    <title>Assignment Test</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-select.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,47 +43,30 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Brand</a>
+              <a class="navbar-brand" href="javascript:void(0)"><i class="fa fa-crosshairs" aria-hidden="true"></i></a>
             </div>
         
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
+              <ul class="nav navbar-nav float-none m-none">
+                <li class="col-md-3 col-sm-4 col-xs-12">
+                  <select class="selectpicker">
+                    <option>My Dashboard</option>
+                    <option>My Profile</option>
+                  </select>
                 </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
+                <li class="col-md-6 col-sm-4 col-xs-12 text-center">
+                    <div class="inner-list-wrap">
+                      <i class="fa fa-file-o"></i>
+                      <span>About</span>
+                      <i class="fa fa-eye"></i>
+                    </div>
                 </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
+                <li class="col-md-3 col-sm-4 col-xs-12 text-right">
+                  <select class="selectpicker">
+                    <option>English</option>
+                    <option>Hindi</option>
+                  </select>
                 </li>
               </ul>
             </div><!-- /.navbar-collapse -->
@@ -96,19 +81,19 @@
               <span>Pages</span>
             </li>
             <li>
-              <i class="fa fa-file-text"></i>
+              <i class="fa fa-edit"></i>
               <span>Create</span>
             </li>
             <li data-edit="content-true">
-              <i class="fa fa-file-text"></i>
+              <i class="fa fa-list-alt"></i>
               <span>Content</span>
             </li>
             <li>
-              <i class="fa fa-file-text"></i>
+              <i class="fa fa-folder-o"></i>
               <span>Files</span>
             </li>
             <li>
-              <i class="fa fa-file-text"></i>
+              <i class="fa fa-tag"></i>
               <span>Categories</span>
             </li>
             
@@ -119,11 +104,11 @@
                 <span>Status</span>
               </li>
               <li>
-                <i class="fa fa-file-text"></i>
+                <i class="fa fa-wrench"></i>
                 <span>Settings</span>
               </li>
               <li>
-                <i class="fa fa-file-text"></i>
+                <i class="fa fa-folder-o"></i>
                 <span>Mobile View</span>
               </li>
           </ul>
@@ -265,24 +250,24 @@
       <div class="right-panel">
           <ul class="top-switch">
             <li>
-              <i class="fa fa-file-text"></i>
+              <i class="fa fa-external-link"></i>
               <span>Status</span>
             </li>
             <li>
-              <i class="fa fa-file-text"></i>
+              <i class="fa fa-floppy-o"></i>
               <span>Publish</span>
             </li>
             <li>
-              <i class="fa fa-file-text"></i>
+              <i class="fa fa-wrench"></i>
               <span>Workflow</span>
             </li>
             <li>
-              <i class="fa fa-file-text"></i>
+              <i class="fa fa-hdd-o"></i>
               <span>Cache</span>
             </li>
             <li>
-              <i class="fa fa-file-text"></i>
-              <span>FAQs</span>
+              <i class="fa fa-trash-o"></i>
+              <span>Trash</span>
             </li>
             
           </ul>
@@ -293,6 +278,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.dotdotdot.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
     <script src="js/custom-script.js"></script>
   </body>
 </html>
