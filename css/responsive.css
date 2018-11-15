@@ -16,9 +16,22 @@
   .inner-list-wrap {
       justify-content: start;
   }
+  .main-wrapper .grid-panel {
+    flex-flow: wrap;
+    height: auto;
+    min-height: 200px;
+  }
+  .main-wrapper .grid {
+    width: 33.333%;
+    flex: auto;
+    border-right: 0;
+  }
+  .main-wrapper .grid + .grid {
+    border-right: 0;
+    border-left: 1px solid #e6e6e6;
+  }
+
 }
 
-@media screen and (max-width: 991px){
-  
-}
+
 /********* Responsive ********/
